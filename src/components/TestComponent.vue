@@ -80,11 +80,6 @@ export default {
   section, footer, header, aside, nav{
     display: block;
   }
-
-  /*-------------------------
-        菜鸟
-    --------------------------*/
-
   nav{
     display:inline-block;
     margin:60px auto 45px;

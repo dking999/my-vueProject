@@ -1,7 +1,9 @@
 <template xmlns:v-slot="http://www.w3.org/1999/XSL/Transform">
   <div id="app">
-    <router-link to="/test">test</router-link>
+    <router-link :to="{name:'TestComponent'}">test</router-link>
+    <keep-alive>
     <router-view></router-view>
+    </keep-alive>
   <!--  <Test1></Test1>-->
     <!--<List></List>
     <Slotcomponent :lists="nameList">
